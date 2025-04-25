@@ -6,17 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		F56DFCE52DBAE4C70006CFCF /* CA 403b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CA 403b.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		F557253B2DBBE4E40044CD62 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557253A2DBBE4E40044CD62 /* LaunchScreen.swift */; };
+		F57015132DBAE61500046DD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F570150D2DBAE61500046DD6 /* Preview Assets.xcassets */; };
+		F57015142DBAE61500046DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F570150F2DBAE61500046DD6 /* Assets.xcassets */; };
+		F57015152DBAE61500046DD6 /* CA_403bApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57015102DBAE61500046DD6 /* CA_403bApp.swift */; };
+		F57015162DBAE61500046DD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57015112DBAE61500046DD6 /* ContentView.swift */; };
+		F5CEF1712DBBEFB70087C680 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CEF1702DBBEFB70087C680 /* ProductCardView.swift */; };
+		F5CEF1732DBBF3DA0087C680 /* FundCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CEF1722DBBF3DA0087C680 /* FundCardView.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F56DFCE72DBAE4C70006CFCF /* CA 403b */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "CA 403b";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		F557253A2DBBE4E40044CD62 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		F56DFCE52DBAE4C70006CFCF /* CA 403b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CA 403b.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F570150D2DBAE61500046DD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F570150F2DBAE61500046DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F57015102DBAE61500046DD6 /* CA_403bApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CA_403bApp.swift; sourceTree = "<group>"; };
+		F57015112DBAE61500046DD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5CEF1702DBBEFB70087C680 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		F5CEF1722DBBF3DA0087C680 /* FundCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F56DFCE22DBAE4C70006CFCF /* Frameworks */ = {
@@ -32,7 +41,7 @@
 		F56DFCDC2DBAE4C70006CFCF = {
 			isa = PBXGroup;
 			children = (
-				F56DFCE72DBAE4C70006CFCF /* CA 403b */,
+				F57015122DBAE61500046DD6 /* CA 403b */,
 				F56DFCE62DBAE4C70006CFCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,28 @@
 				F56DFCE52DBAE4C70006CFCF /* CA 403b.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F570150E2DBAE61500046DD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F570150D2DBAE61500046DD6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F57015122DBAE61500046DD6 /* CA 403b */ = {
+			isa = PBXGroup;
+			children = (
+				F57015102DBAE61500046DD6 /* CA_403bApp.swift */,
+				F57015112DBAE61500046DD6 /* ContentView.swift */,
+				F557253A2DBBE4E40044CD62 /* LaunchScreen.swift */,
+				F5CEF1702DBBEFB70087C680 /* ProductCardView.swift */,
+				F5CEF1722DBBF3DA0087C680 /* FundCardView.swift */,
+				F570150F2DBAE61500046DD6 /* Assets.xcassets */,
+				F570150E2DBAE61500046DD6 /* Preview Content */,
+			);
+			path = "CA 403b";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +90,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F56DFCE72DBAE4C70006CFCF /* CA 403b */,
 			);
 			name = "CA 403b";
 			packageProductDependencies = (
@@ -109,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F57015132DBAE61500046DD6 /* Preview Assets.xcassets in Resources */,
+				F57015142DBAE61500046DD6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F57015152DBAE61500046DD6 /* CA_403bApp.swift in Sources */,
+				F57015162DBAE61500046DD6 /* ContentView.swift in Sources */,
+				F5CEF1712DBBEFB70087C680 /* ProductCardView.swift in Sources */,
+				F5CEF1732DBBF3DA0087C680 /* FundCardView.swift in Sources */,
+				F557253B2DBBE4E40044CD62 /* LaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
